@@ -100,8 +100,6 @@ class Student
     DB[:conn].execute(sql, grade)
   end
 
-  # binding.pry
-end	
   
   
   def self.all_students_in_grade_9
